@@ -1,6 +1,6 @@
 # Create your HauntedHouse class here
 
-class HauntedHouses < ActiveRecord::Base
+class HauntedHouse < ActiveRecord::Base
   def change
     create_table :haunted_houses do |t|
       t.string :name
